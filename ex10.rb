@@ -8,8 +8,7 @@ fat_cat = """
 I'll do a list:
 \t* Cat food
 \t* Fis\rhies
-\t* Catnip\n\t* grass
-\a
+\t* Catnip\n\t* gra\ass
 """
 
 puts tabby_cat
