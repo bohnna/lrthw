@@ -1,6 +1,6 @@
 people = 30
 cars = 40
-trucks = 15
+trucks = 45
 
 if cars > people
 	puts "We should take the cars."
@@ -23,3 +23,10 @@ if people > trucks
 else
 	puts "Fine, let's stay home then."
 end
+
+if people > trucks && cars > trucks
+	puts "The cars are more fuel efficient though, let's take them."
+elsif people < trucks && cars < trucks
+	puts "We have less people and cars than trucks."
+end
+
