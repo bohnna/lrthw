@@ -54,7 +54,7 @@ def cthulhu_room
 
 	if choice.include? "flee"
 		start
-	elsif choice.include? "head"
+	elsif choice.include? "hand"
 		dead("Well that was tasty!")
 	else
 		cthulhu_room
